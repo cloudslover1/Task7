@@ -18,6 +18,7 @@ public class HelloController implements Initializable {
     @FXML
     private Label welcomeText;
     Signal signal = new Signal();
+    LoadingShape Lshape = new LoadingShape();
     TimeServer timeServer = new TimeServer();
 
     @FXML
@@ -28,16 +29,19 @@ public class HelloController implements Initializable {
     public void onHelloButtonClickStart(ActionEvent actionEvent) {
         System.out.println("start");
         timeServer.attach(signal);
+        timeServer.attach(Lshape);
     }
 
     public void onHelloButtonClickStop(ActionEvent actionEvent) {
         System.out.println("stop");
         timeServer.detach(signal);
+        timeServer.detach(Lshape);
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         box.getChildren().add(signal.txt);
+        box.getChildren().add(Lshape.sqr);
 
     }
 

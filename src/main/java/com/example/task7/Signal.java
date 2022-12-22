@@ -14,7 +14,7 @@ public class Signal  implements IObserver {
     @Override
     public void update() {
         counter++;
-        lbl.setText(""+counter);
+        lbl.setText(""+counter);//старый не работающий способ
 
         txt.setText(""+ counter);
 

@@ -13,11 +13,11 @@
 этого времени, построение фигур и вывод сообщения через указаный промежуток времени(таймер)
 
 
-slkdjfls
+Рабочее окно приложения
 
 ![image](https://user-images.githubusercontent.com/74301524/230317066-5ec74e4f-ab5b-4664-a2ee-cee4f819988e.png)
 
-ssdfsdfg
+Архитектура
 
 ![image](https://user-images.githubusercontent.com/74301524/230318414-31ef06d0-a76f-4e7c-b325-67666d37aa6e.png)
 
